@@ -1,6 +1,6 @@
 # ThaDataMova
-It mova tha data 😎
-(from a network location)
+
+It mova tha data 😎 (from a domain restricted network location) OUTTA THERE
 
 ## Dependencies
 
