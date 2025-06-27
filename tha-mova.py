@@ -3,7 +3,7 @@ import json
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 with open("tha-copya.json", "r") as f:
     copya_config = json.load(f)
