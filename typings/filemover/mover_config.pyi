@@ -73,6 +73,9 @@ class MoverConfig:
     @property
     def keep_source(self) -> bool:
         ...
-    
+
+    @property
+    def recursive(self) -> bool:
+        ...
 
 
