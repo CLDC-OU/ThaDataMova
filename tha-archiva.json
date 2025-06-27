@@ -1,0 +1,8 @@
+{
+    "mover_name": "The Data Archiva",
+    "mover_description": "The archiving component for Tha Data (it moves files from the network location to a specified archive location).",
+    "source_directory": "",
+    "destination_directory": "",
+    "file_types": ["csv"],
+    "keep_source": false
+}

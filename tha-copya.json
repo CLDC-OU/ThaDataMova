@@ -1,0 +1,8 @@
+{
+    "mover_name": "Tha Data Copya",
+    "mover_description": "The copying component for movin Tha Data (it copies files from the domain network location to the local machine).",
+    "source_directory": "",
+    "destination_directory": "",
+    "file_types": ["csv"],
+    "keep_source": true
+}
