@@ -14,7 +14,7 @@ $ScriptPath = "$ScriptDirectory\$ScriptName"
 
 $TaskDescription = "Runs the $ScriptName script in the $ScriptDirectory directory to move data files to the configured directory."
 
-$Username = "$env:COMPUTERNAME\$env:USERNAME"
+$Username = (Get-WmiObject -Namespace root\cimv2 -Class Win32_ComputerSystem).UserName
 $Credentials = Get-Credential -Username $Username
 
 # Manually set duration far in the future to avoid overflow with using max time ([TimeSpan]::MaxValue)
