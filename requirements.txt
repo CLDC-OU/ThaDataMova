@@ -1,2 +1,2 @@
-filemover @ git+https://github.com/CLDC-OU/FileMover.git@1.2.3
+filemover @ git+https://github.com/CLDC-OU/FileMover.git@1.2.4
 dotenv
